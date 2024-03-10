@@ -56,7 +56,7 @@ function App() {
   return (
     <div>
       <div style={{ margin: 10 }}>
-        <p>The results will only show up when there are fewer than 50.</p>
+        <p>The results will only show up when there are fewer than 100.</p>
       </div>
       <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
       <div style={{ margin: 10 }}>
@@ -86,7 +86,7 @@ function App() {
         <div style={{ margin: 10 }}>
           Results: {results.length}
         </div>
-        {(results.length > 0 && regex.length > 0 && !error) && (
+        {(results.length > 0 && results.length <= 100 && regex.length > 0 && !error) && (
           <table style={{ margin: 10 }}>
             <thead>
               <tr>
