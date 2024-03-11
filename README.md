@@ -1,8 +1,6 @@
-# React + Vite
+# Torn - Cracking
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple regex lookup tool for passwords from an [open source weak password database](https://github.com/ignis-sec/Pwdb-Public/blob/master/wordlists/ignis-100K.txt).
+Made to help search for passwords for the Cracking crime in [Torn](https://torn.com/).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run locally, run `npm run dev`
